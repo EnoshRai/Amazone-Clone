@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo bar"></div>
+            <div class="location bar">
+                <div class="delivery loc">
+                    <p>Delivery to</p>
+                </div>
+                <div class="country loc">
+                    <i class="fa-solid fa-location-dot"></i> Nepal
+                </div>
+            </div>
+            <div class="searchbar">
+                <div class="category">
+                    <select class="sub-category" name="category" id="category">
+                        <option value="All Departments">All Departments</option>
+                        <option value="Fashion">Fashion</option>
+                        <option value="Toys">Toys</option>
+                        <option value="Cosmetic">Cosmetic</option>
+                    </select>
+                </div>
+                <div class="searchitems">
+                    <input id="search" type="text" placeholder="Seacrh items here">
+                </div>
+                <div class="searchicon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="language bar">
+                <div class="flag"> <i class="fa-solid fa-flag"></i></div>
+                <div class="flag"> EN </div>
+                <div class="flag"> <i class="fa-solid fa-caret-down"></i></div>
+            </div>
+            <div class="hello bar">
+                <div class="inner-hello">
+                    <div class="hello1-content">
+                        Hello, Sign in
+                    </div>
+                </div>
+                <div class="inner-hello">
+                    <div class="hello2-content">
+                        Accounts & Lists <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+
+            </div>
+            <div class="returns bar">
+                <div class="inner-return">
+                    <div class="returns-content">Returns</div>
+                </div>
+                <div class="inner-return">
+                    <div class="orders-content">& Orders</div>
+                </div>
+            </div>
+            <div class="cart bar">
+                <div class="cart-content">
+                    <i class="fa-solid fa-cart-shopping"></i> Cart
+                </div>
+            </div>
+        </div>
+
+        <div class="second-header">
+            <div class="menu border">
+                <i class="fa-solid fa-bars"></i>
+                ALL
+            </div>
+            <div class="items">
+                <p class="border">Today's Deals</p>
+                <p class="border">Customer Service</p>
+                <p class="border">Registry</p>
+                <p class="border">Gift Cards</p>
+                <p class="border">Sell</p>
+            </div>
+            <div class="shop border">
+                <p> Shop the Gaming Store </p>
+            </div>
+        </div>
+    </header>
+
+    <div class="bgimage">
+
+        <div class="first-layout">
+
+            <div id="game" class="layout-border">
+                <div class="inner1">
+                    Game Accesories
+                </div>
+                <div class="inner2">
+                    <a href="#">
+                        <div class="image-and-text">
+                            <div class="image">
+                                <img src="Game accesories/Fuji_Quad_Chair_1x._SY116_CB667159060_ copy.jpg"
+                                    alt="image not found">
+                            </div>
+                            <div class="text">
+                                Chairs
+                            </div>
+                    </a>
+                </div>
+                <a href="#">
+                    <div class="image-and-text">
+                        <div class="image">
+                            <img src="Game accesories\Fuji_Quad_Headset_1x._SY116_CB667159060_.jpg"
+                                alt="image not found">
+                        </div>
+                        <div class="text">Headset</div>
+                </a>
+            </div>
+            <a href="#">
+                <div class="image-and-text">
+                    <div class="image">
+                        <img src="Game accesories\Gameing Accesories.jpg" alt="image not found">
+                    </div>
+                    <div class="text">Keyboard</div>
+            </a>
+        </div>
+        <a href="#">
+            <div class="image-and-text">
+                <div class="image">
+                    <img src="Game accesories\Fuji_Quad_Mouse_1x._SY116_CB667159063_.jpg" alt="">
+                </div>
+                <div class="text">Mouse</div>
+        </a>
+    </div>
+    </div>
+    <div class="link"><a href="#">See more</a></div>
+
+    </div>
+    <div id="home-arrivals" class="layout-border">
+        <div class="inner1">
+            New home arrivals under $50
+        </div>
+        <div class="inner2">
+            <a href="#">
+                <div class="image-and-text">
+                    <div class="image">
+                        <img src="New home arrivals under $50\Home_Flip_Summer_2024_315_HP_NewArrivals_QuadCard_D_01_1x._SY116_CB555960040_.jpg"
+                            alt="image not found">
+                    </div>
+                    <div class="text">
+                        <p>Kitchen & dining</p>
+                    </div>
+            </a>
+        </div>
+        <a href="#">
+            <div class="image-and-text">
+                <div class="image">
+                    <img src="New home arrivals under $50\Home_Flip_Summer_2024_316_HP_NewArrivals_QuadCard_D_02_1x._SY116_CB555960040_.jpg"
+                        alt="image not found">
+                </div>
+                <div class="text">Home Improvement</div>
+        </a>
+    </div>
+    <a href="#">
+        <div class="image-and-text">
+            <div class="image">
+                <img src="New home arrivals under $50\Home_Flip_Summer_2024_317_HP_NewArrivals_QuadCard_D_03_1x._SY116_CB555960040_.jpg"
+                    alt="image not found">
+            </div>
+            <div class="text">Decor</div>
+    </a>
+    </div>
+    <a href="#">
+        <div class="image-and-text">
+            <div class="image">
+                <img src="New home arrivals under $50\Home_Flip_Summer_2024_318_HP_NewArrivals_QuadCard_D_04_1x._SY116_CB555960040_.jpg"
+                    alt="image not found">
+            </div>
+            <div class="text">Bedding & bath</div>
+    </a>
+    </div>
+    </div>
+    <div class="link"><a href="#">See more</a></div>
+    </div>
+    <div id="fashion" class="layout-border">
+        <div class="inner1">
+            Shop deals in Fashion
+        </div>
+        <div class="inner2">
+            <a href="#">
+                <div class="image-and-text">
+                    <div class="image">
+                        <img src="Shop deals in Fashion\DQC_APR_TBYB_W_BOTTOMS_1x._SY116_CB624172947_.jpg"
+                            alt="image not found">
+                    </div>
+                    <div class="text">
+                        <p>Jeans under $50</p>
+                    </div>
+            </a>
+        </div>
+        <a href="#">
+            <div class="image-and-text">
+                <div class="image">
+                    <img src="Shop deals in Fashion\DQC_APR_TBYB_W_DRESSES_1x._SY116_CB623353881_.jpg"
+                        alt="image not found">
+                </div>
+                <div class="text">Tops under &25</div>
+        </a>
+    </div>
+    <a href="#">
+        <div class="image-and-text">
+            <div class="image">
+                <img src="Shop deals in Fashion\DQC_APR_TBYB_W_SHOES_1x._SY116_CB624172947_.jpg" alt="image not found">
+            </div>
+            <div class="text">Dresses under $30
+            </div>
+    </a>
+    </div>
+    <a href="#">
+        <div class="image-and-text">
+            <div class="image">
+                <img src="Shop deals in Fashion\DQC_APR_TBYB_W_TOPS_1x._SY116_CB623353881_.jpg" alt="image not found">
+            </div>
+            <div class="text">Shoes under $30
+            </div>
+    </a>
+    </div>
+    </div>
+    <div class="link"><a href="#">See more</a></div>
+    </div>
+    <div id="refresh" class="layout-border">
+        <div class="inner1">
+            Refresh your space
+        </div>
+        <div class="inner2">
+            <a href="#">
+                <div class="image-and-text">
+                    <div class="image">
+                        <img src="Refresh your space\DesktopQuadCat_186x116_health-beauty_B07662GN57_01.23._SY116_CB619238939_.jpg"
+                            alt="image not found">
+                    </div>
+                    <div class="text">
+                        <p>Health and Beauty
+                        </p>
+                    </div>
+            </a>
+        </div>
+        <a href="#">
+            <div class="image-and-text">
+                <div class="image"><img
+                        src="Refresh your space\DesktopQuadCat_186x116_home_B08RCCP3HV_01.23._SY116_CB619238939_.jpg"
+                        alt="image not found">
+                </div>
+                <div class="text">Home
+                </div>
+        </a>
+    </div>
+    <a href="#">
+        <div class="image-and-text">
+            <div class="image">
+                <img src="Refresh your space\DesktopQuadCat_186x116_kitchen_B0126LMDFK_01.23._SY116_CB619238939_.jpg"
+                    alt="image not found">
+            </div>
+            <div class="text">Kitchen
+            </div>
+    </a>
+    </div>
+    <a href="#">
+        <div class="image-and-text">
+            <div class="image">
+                <img src="Refresh your space\DesktopQuadCat_186x116_LP-HP_B08MYX5Q2W_01.23._SY116_CB619238939_.jpg"
+                    alt="image not found">
+            </div>
+            <div class="text">Dining
+            </div>
+    </a>
+    </div>
+    </div>
+    <div class="link"><a href="#">See more</a></div>
+    </div>
+    <div id="toy" class="layout-border">
+        <div class="inner1">
+            Toys under $25
+        </div>
+        <div class="another-image">
+            <a href="#"> <img src="Toys under $25\Fuji_Desktop_Single_image_EBF_1x_v3._SY304_CB573698005_.jpg"
+                    alt="not found"></a>
+        </div>
+        <div class="link"><a href="#">See more</a></div>
+    </div>
+    <div id="home-decor" class="layout-border">
+        <div class="inner1">
+            Home décor under $50
+        </div>
+        <div class="another-image">
+            <a href="#"> <img src="61Oj935D1eL._AC_UY327_FMwebp_QL65_.jpg" alt="not found"></a>
+        </div>
+
+        <div class="link"><a href="#">See more</a></div>
+    </div>
+    <div id="game-on" class="layout-border">
+        <div class="inner1">
+            Get your game on
+        </div>
+        <div class="another-image">
+            <a href="#"> <img src="Get your game on\Fuji_Gaming_store_Dashboard_card_1x_EN._SY304_CB564799420_.jpg"
+                    alt="not found"></a>
+        </div>
+        <div class="link"><a href="#">See more</a></div>
+    </div>
+    <div id="beauty-steals" class="layout-border">
+        <div class="inner1">
+            Beauty steals under $25
+        </div>
+        <div class="another-image">
+            <a href="#">
+                <img src="Beauty steals under $25\Fuji_Desktop_Single_image_EBF_1x_v5._SY304_CB573698005_.jpg"
+                    alt="not found"></a>
+        </div>
+        <div class="link"><a href="#">See more</a></div>
+    </div>
+    </div>
+    </div>
+
+
+
+    <div class="second-background-image">
+
+
+
+
+        <div class="best_seller_books">
+            <div class="book_text">
+                <p>Best seller books</p>
+                <div class="book_image">
+
+                    <a href="">
+                        <div class="book_image_content">
+                            <img src="61ao4gtselL._AC_SY200_.jpg" alt="">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="book_image_content">
+                            <img src="61BY9AdiOZL._AC_SY200_.jpg" alt="">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="book_image_content">
+                            <img src="61iM9eVhTSL._AC_SY200_.jpg" alt="">
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="book_image_content">
+                            <img src="61JnCH3cSQL._AC_SY200_.jpg" alt="">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="book_image_content">
+                            <img src="61Oj935D1eL._AC_UY327_FMwebp_QL65_.jpg" alt="">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="book_image_content">
+                            <img src="61SY1Sj0EUL._AC_SY200_.jpg" alt="">
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="book_image_content">
+                            <img src="71VCcLfGiwL._AC_SY200_.jpg" alt="">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="book_image_content">
+                            <img src="719KYAOLqyL._AC_SY200_.jpg" alt="">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="book_image_content">
+                            <img src="61U8hPObmHL._AC_SY200_.jpg" alt="">
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="book_image_content">
+                            <img src="61UJwrtcS-L._AC_SY200_.jpg" alt="">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="book_image_content">
+                            <img src="61vijP8i9YL._AC_SY200_.jpg" alt="">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="book_image_content">
+                            <img src="81VrZjHDcDL._AC_SY200_.jpg" alt="">
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="book_image_content">
+                            <img src="71BSAWDZM5L._AC_SY200_.jpg" alt="">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="book_image_content">
+                            <img src="71cd2P+M5YL._AC_SY200_.jpg" alt="">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="book_image_content">
+                            <img src="71DvoonszsL._AC_SY200_.jpg" alt="">
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="book_image_content">
+                            <img src="71JUYyLjZeL._AC_SY200_.jpg" alt="">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="book_image_content">
+                            <img src="71L0UVrsZnL._AC_SY200_.jpg" alt="">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="book_image_content">
+                            <img src="71OcuFF+quL._AC_SY200_.jpg" alt="">
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="book_image_content">
+                            <img src="71qT+kPBBLL._AC_SY200_.jpg" alt="">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="book_image_content">
+                            <img src="71tgNZQXn-L._AC_SY200_.jpg" alt="">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="book_image_content">
+                            <img src="719KYAOLqyL._AC_SY200_.jpg" alt="">
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="book_image_content">
+                            <img src="81vfQ+qflML._AC_SY200_.jpg" alt="">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="book_image_content">
+                            <img src="81VrZjHDcDL._AC_SY200_.jpg" alt="">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="book_image_content">
+                            <img src="515CZE4km-L._AC_SY200_.jpg" alt="">
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="book_image_content">
+                            <img src="716QNCYUMAL._AC_SY200_.jpg" alt="">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="book_image_content">
+                            <img src="718YJUELgML._AC_SY200_.jpg" alt="">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="book_image_content">
+                            <img src="7148zDL73fL._AC_SY200_.jpg" alt="">
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="second-layout">
+
+            <div id="game" class="layout-border">
+                <div class="inner1">
+                    Most-loved travel essentials
+                </div>
+                <div class="inner2">
+                    <a href="#">
+                        <div class="image-and-text">
+                            <div class="image">
+                                <img src="Most loved travel essentials\Backpack_1x._SY116_CB566100767_.jpg"
+                                    alt="image not found">
+                            </div>
+                            <div class="text">
+                                Backpacks
+                            </div>
+                    </a>
+                </div>
+                <a href="#">
+                    <div class="image-and-text">
+                        <div class="image">
+                            <img src="Most loved travel essentials\TravelBag_1x._SY116_CB566100767_.jpg"
+                                alt="image not found">
+                        </div>
+                        <div class="text">Suitcases</div>
+                </a>
+            </div>
+            <a href="#">
+                <div class="image-and-text">
+                    <div class="image">
+                        <img src="Most loved travel essentials\Accessories_1x._SY116_CB566100767_.jpg" alt="image not found">
+                    </div>
+                    <div class="text">Accesories</div>
+            </a>
+        </div>
+        <a href="#">
+            <div class="image-and-text">
+                <div class="image">
+                    <img src="Most loved travel essentials\Handbags_1x._SY116_CB566100767_.jpg" alt="">
+                </div>
+                <div class="text">Handbags</div>
+        </a>
+    </div>
+    </div>
+    <div class="link"><a href="#">See more</a></div>
+
+    </div>
+    <div id="home-arrivals" class="layout-border">
+        <div class="inner1">
+            Score the top PCs & Accessories
+        </div>
+        <div class="inner2">
+            <a href="#">
+                <div class="image-and-text">
+                    <div class="image">
+                        <img src="Score the top PCs  & Accesories\Fuji_BTF_Quad_Cards_1x_Desktops._SY116_CB558654384_.jpg"
+                            alt="image not found">
+                    </div>
+                    <div class="text">
+                        <p>Desktops</p>
+                    </div>
+            </a>
+        </div>
+        <a href="#">
+            <div class="image-and-text">
+                <div class="image">
+                    <img src="Score the top PCs  & Accesories\Fuji_BTF_Quad_Cards_1x_laptop._SY116_CB558654384_.jpg"
+                        alt="image not found">
+                </div>
+                <div class="text">Laptops</div>
+        </a>
+    </div>
+    <a href="#">
+        <div class="image-and-text">
+            <div class="image">
+                <img src="Score the top PCs  & Accesories\Fuji_BTF_Quad_Cards_1x_Hard_Drives._SY116_CB558654384_.jpg"
+                    alt="image not found">
+            </div>
+            <div class="text">Hard Drives</div>
+    </a>
+    </div>
+    <a href="#">
+        <div class="image-and-text">
+            <div class="image">
+                <img src="Score the top PCs  & Accesories\Fuji_BTF_Quad_Cards_1x_Accessories._SY116_CB558654384_.jpg"
+                    alt="image not found">
+            </div>
+            <div class="text">PC Accesories</div>
+    </a>
+    </div>
+    </div>
+    <div class="link"><a href="#">See more</a></div>
+    </div>
+    <div id="fashion" class="layout-border">
+        <div class="inner1">
+            Wireless Tech
+        </div>
+        <div class="inner2">
+            <a href="#">
+                <div class="image-and-text">
+                    <div class="image">
+                        <img src="Wireless Tech\Smartphone_1x._SY116_CB566164844_.jpg"
+                            alt="image not found">
+                    </div>
+                    <div class="text">
+                        <p>Smartphones</p>
+                    </div>
+            </a>
+        </div>
+        <a href="#">
+            <div class="image-and-text">
+                <div class="image">
+                    <img src="Wireless Tech\Watches_1x._SY116_CB566164844_.jpg"
+                        alt="image not found">
+                </div>
+                <div class="text">Watches</div>
+        </a>
+    </div>
+    <a href="#">
+        <div class="image-and-text">
+            <div class="image">
+                <img src="Wireless Tech\Headphone_1x._SY116_CB566164844_.jpg" alt="image not found">
+            </div>
+            <div class="text">Headphone
+            </div>
+    </a>
+    </div>
+    <a href="#">
+        <div class="image-and-text">
+            <div class="image">
+                <img src="Wireless Tech\Tablet_1x._SY116_CB566164844_.jpg" alt="image not found">
+            </div>
+            <div class="text">Tablets
+            </div>
+    </a>
+    </div>
+    </div>
+    <div class="link"><a href="#">See more</a></div>
+    </div>
+    <div id="refresh" class="layout-border">
+        <div class="inner1">
+            Most-loved watches
+        </div>
+        <div class="inner2">
+            <a href="#">
+                <div class="image-and-text">
+                    <div class="image">
+                        <img src="Most loved watches\WomenWatches_1x._SY116_CB564394432_.jpg"
+                            alt="image not found">
+                    </div>
+                    <div class="text">
+                        <p>Women
+                        </p>
+                    </div>
+            </a>
+        </div>
+        <a href="#">
+            <div class="image-and-text">
+                <div class="image"><img
+                        src="Most loved watches\MenWatches_1x._SY116_CB564394432_.jpg"
+                        alt="image not found">
+                </div>
+                <div class="text">Men
+                </div>
+        </a>
+    </div>
+    <a href="#">
+        <div class="image-and-text">
+            <div class="image">
+                <img src="Most loved watches\MenWatches_1x._SY116_CB564394432_.jpg"
+                    alt="image not found">
+            </div>
+            <div class="text">Girls
+            </div>
+    </a>
+    </div>
+    <a href="#">
+        <div class="image-and-text">
+            <div class="image">
+                <img src="Most loved watches\BoyWatches_1x._SY116_CB564394432_.jpg"
+                    alt="image not found">
+            </div>
+            <div class="text">Boys
+            </div>
+    </a>
+    </div>
+    </div>
+    <div class="link"><a href="#">See more</a></div>
+    </div>
+
+    
+    <footer>
+        <div class="section-third">
+
+            <div class="another-signin-option">
+                <div class="info group">
+                    <p>See personalised information</p>
+                </div>
+                <div class="sign group">
+                    <input class="signbutton" type="submit" value="Sign in">
+                </div>
+                <div class="new-customer group">
+                    New Customer? <a href="#">Sign here</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="go-to-top">
+            Back to top
+        </div>
+
+
+
+
+
+
+        <div class="bottom">
+
+            <div class="bottom_content_container">
+                <div class="bottom-content">
+                    <a href="#"><span class="first-line">Amazon Music</span>
+                        <span class="second-line">Stream millions of songs</span>
+                    </a>
+                </div>
+
+
+                <div class="bottom-content">
+                    <a href="#">
+                        <span class="first-line">Amazon Ads</span>
+                        <span class="second-line">Reach customers
+                            wherever they
+                            spend their time</span>
+                    </a>
+                </div>
+
+                <div class="bottom-content">
+                    <a href="#">
+                        <span class="first-line">6pm</span><br>
+                        <span class="second-line">Score deals
+                            on fashion brands</span>
+                    </a>
+                </div>
+
+                <div class="bottom-content">
+                    <a href="#">
+                        <span class="first-line">AbeBooks</span><br>
+                        <span class="second-line">Books, art & collectibles</span>
+
+                    </a>
+                </div>
+
+                <div class="bottom-content">
+                    <a href="#">
+                        <span class="first-line">ACX</span><br>
+                        <span class="second-line">Audiobook Publishing
+                            Made Easy</span>
+                    </a>
+                </div>
+
+                <div class="bottom-content">
+                    <a href="#">
+                        <span class="first-line"> Sell on Amazon</span>
+                        <span class="second-line"> Start a Selling Account</span>
+                    </a>
+                </div>
+
+                <div class="bottom-content">
+                    <a href="#">
+                        <span class="first-line">Veeqo</span><br>
+                        <span class="second-line">Shipping Software
+                            Inventory Management</span>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="bottom_content_container">
+                <div class="bottom-content">
+                    <a href="#"><span class="first-line">Amazon
+                            Business</span>
+                        <span class="second-line">Everything
+                            For
+                            Your Business</span>
+                    </a>
+                </div>
+
+
+                <div class="bottom-content">
+                    <a href="#">
+                        <span class="first-line">AmazonGlobal</span>
+                        <span class="second-line">Ship Orders
+                            Internationally </span>
+                    </a>
+                </div>
+
+                <div class="bottom-content">
+                    <a href="#">
+                        <span class="first-line">Home Services
+                        </span><br>
+                        <span class="second-line">Experienced Pros
+                            Happiness Guarantee</span>
+                    </a>
+                </div>
+
+                <div class="bottom-content">
+                    <a href="#">
+                        <span class="first-line">Amazon Web Services</span><br>
+                        <span class="second-line">Scalable Cloud
+                            Computing Services</span>
+
+                    </a>
+                </div>
+
+                <div class="bottom-content">
+                    <a href="#">
+                        <span class="first-line">Audible</span><br>
+                        <span class="second-line">Listen to Books & Original
+                            Audio Performances</span>
+                    </a>
+                </div>
+
+                <div class="bottom-content">
+                    <a href="#">
+                        <span class="first-line"> Box Office Mojo</span>
+                        <span class="second-line">Find Movie
+                            Box Office Data </span>
+                    </a>
+                </div>
+
+                <div class="bottom-content">
+                    <a href="#">
+                        <span class="first-line">Goodreads</span><br>
+                        <span class="second-line">Book reviews
+                            & recommendations</span>
+                    </a>
+                </div>
+            </div>
+            <div class="bottom_content_container">
+                <div class="bottom-content">
+                    <a href="#"><span class="first-line">IMDb</span><br>
+                        <span class="second-line">Movies, TV
+                            & Celebrities</span>
+                    </a>
+                </div>
+
+
+                <div class="bottom-content">
+                    <a href="#">
+                        <span class="first-line">IMDbPro</span><br>
+                        <span class="second-line">Get Info Entertainment
+                            Professionals Need</span>
+                    </a>
+                </div>
+
+                <div class="bottom-content">
+                    <a href="#">
+                        <span class="first-line">Kindle Direct Publishing</span><br>
+                        <span class="second-line">Indie Digital & Print Publishing
+                            Made Easy</span>
+                    </a>
+                </div>
+
+                <div class="bottom-content">
+                    <a href="#">
+                        <span class="first-line">Prime Video Direct</span><br>
+                        <span class="second-line">Video Distribution
+                            Made Easy</span>
+
+                    </a>
+                </div>
+
+                <div class="bottom-content">
+                    <a href="#">
+                        <span class="first-line">Shop bop</span><br>
+                        <span class="second-line">Designer
+                            Fashion Brands</span>
+                    </a>
+                </div>
+
+                <div class="bottom-content">
+                    <a href="#">
+                        <span class="first-line">Woot!</span><br>
+                        <span class="second-line">Deals and
+                            Shenanigans</span>
+                    </a>
+                </div>
+
+                <div class="bottom-content">
+                    <a href="#">
+                        <span class="first-line">Zappos</span><br>
+                        <span class="second-line">Shoes &
+                            Clothing</span>
+                    </a>
+                </div>
+            </div>
+            <div class="bottom_content_container">
+                <div class="bottom-content">
+                    <a href="#"><span class="first-line">Ring</span><br>
+                        <span class="second-line">Smart Home
+                            Security Systems</span>
+                    </a>
+                </div>
+
+
+                <div class="bottom-content">
+                    <a href="#">
+                        <span class="first-line">eero WiFi</span><br>
+                        <span class="second-line">Stream 4K Video
+                            in Every Room</span>
+                    </a>
+                </div>
+
+                <div class="bottom-content">
+                    <a href="#">
+                        <span class="first-line">Blink</span><br>
+                        <span class="second-line">Smart Security
+                            for Every Home</span>
+                    </a>
+                </div>
+
+                <div class="bottom-content">
+                    <a href="#">
+                        <span class="first-line">Neighbors App</span><br>
+                        <span class="second-line">Real-Time Crime
+                            & Safety Alerts</span>
+
+                    </a>
+                </div>
+
+                <div class="bottom-content">
+                    <a href="#">
+                        <span class="first-line">Amazon Subscription Boxes</span><br>
+                        <span class="second-line">Top subscription boxes - right to your door</span>
+                    </a>
+                </div>
+
+                <div class="bottom-content">
+                    <a href="#">
+                        <span class="first-line">PillPack</span><br>
+                        <span class="second-line"> Pharmacy Simplified
+                        </span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</div>
+
+</body>
+
+</html>
